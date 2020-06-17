@@ -1,0 +1,243 @@
+*{
+    margin: 0;    
+    padding: 0;
+    outline: 0;
+}
+.full_wr{
+    width: 100%;
+}
+.main_wr{
+    width: 80%;
+    margin: 0 auto;
+}
+.clr{
+    clear: both;
+}
+/*images width*/
+img
+{
+    width: 100%;
+    height: auto;
+}
+/*basic css end*/
+/*menu area css start*/
+.header{
+    background: #f2f0ef;
+}
+.logo{
+    width: 10%;
+    float: left;
+}
+
+.menu{
+    width: 80%;
+    float: left;
+}
+.menu ul{
+    list-style: none;
+    float: right;
+    margin-top: 8px;
+}
+.menu ul li{
+    display: inline-flex;
+}
+.menu ul li a{
+    text-decoration: none;
+    width: 100px;
+    height: 50px;  
+    line-height: 50px;
+    text-align: center;
+    color: #333333;
+    border: 1px solid #f2f0ef;
+}
+.menu ul li a:hover{
+    color: #1769ff;
+    border: 1px solid #1769ff;
+    border-radius: 5px;
+    transition: 3s all eyes;
+}
+
+
+/*menu area css end*/
+/*banner area css start*/
+.banner{
+    height: 520px;
+}
+.banner_left{
+    width: 50%;
+    float: left; 
+    height: 100%;
+}
+
+.banner_left h3 {
+  margin-top: 15%;
+}
+.banner_left h1 {
+  margin-top: 10px;
+}
+.banner_left h1 span{
+  margin-left: 100px;
+}
+.banner_left p{
+    margin: 10px 0;
+    max-width: 400px;
+}
+.banner_left button,
+.about_left button{
+    padding: 10px 30px;
+    background: #1769ff;
+    border-radius: 8px;
+    border: 1px solid #fff;
+}
+.banner_left button:hover,
+.about_left button:hover{
+    padding: 10px 30px;
+    background: #1769ff;
+    border-radius: 8px;
+    border: 1px solid #1769ff;
+    color: aliceblue;
+}
+
+/*banner area css end*/
+
+/*about area css start*/
+.about_area{
+    padding: 40px 0;
+    background: #fff;
+}
+.about_left{
+    width: 50%;
+    float: left;
+}
+.about_left h2{
+    text-transform: uppercase;
+}
+.about_left p{
+    margin: 10px 0;
+}
+
+.about_left img{
+    width: 80%;
+    margin-left: 10%;
+}
+/*about area css end*/
+
+/*portfolio area css start*/
+.portfolio_area{
+    background: #f2f0ef;
+    padding: 40px 0;
+}
+.portfolio_text{
+    text-align: center;
+    text-transform: uppercase;
+}
+.portfolio_one{
+    position: relative;
+    width: 31%;
+    height: 300px;
+    float: left;
+    margin-top: 2%;
+}
+.portfolio_one img{
+    height: 300px;
+}
+.overlay{
+    position: absolute;
+    content: '';
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(23, 105, 255, 0.84);
+    transform: scale(0);
+    transition: 1s;
+}
+.portfolio_one:hover .overlay{
+    transform: scale(1);
+    transition: 1s;
+}
+
+.txt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+.portfolio_one:nth-child(2),
+.portfolio_one:nth-child(5)
+{
+    margin-left: 1.8%;
+    margin-right: 1.8%;
+}
+
+
+/*portfolio area css end*/
+
+/*contact area css start*/
+.contact_area{
+    background: #fff;
+    padding: 40px 0;
+}
+.contact_area h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+input{
+    margin-top: 10px;
+    height: 30px;
+    background: #f2f0ef;
+    border: 1px solid #f2f0ef;
+}
+textarea{
+    margin-top: 30px;
+    height: 100px;
+    background: #f2f0ef;
+    width: 95%;
+    resize: none;
+    border: 1px solid #f2f0ef;
+}
+input[type="submit"] {
+    height: 50px;
+    width: 173px;
+    font-weight: 800;
+}
+input[type="submit"]:hover {
+   background: #1769ff;
+    color: #fff;
+}
+/*contact area css end*/
+
+/*footer area css start*/
+.footer_area{
+    background: #f2f0ef;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/*footer area css end*/
+
+/*skill area css start*/
+.skill{
+    margin-bottom: 100px;
+}
+.skill h2{
+    text-transform: uppercase;
+    padding: 40px 0;
+}
+
+input[type="range"] {
+    width: 100%;
+    height: 15px;
+}
+
+
+/*skill area css end*/
+
+
+
+
+
+
+
